@@ -3,9 +3,15 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main (){
+void greet(std::string str) {
+    std::cout << "hello "<< str << std::endl;
 
-    std::cout << "hello world" << std::endl;
+}
+
+int main () {
+    greet("Ola");
+
     return 0;
 }
